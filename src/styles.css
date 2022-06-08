@@ -1,0 +1,66 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.d3-tree-container {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.d3-tree-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+.d3-tree-links {
+  fill: none;
+  stroke: #aaa;
+  stroke-opacity: 0.5;
+  stroke-width: 2;
+}
+
+.d3-tree-nodes circle {
+  stroke: #2196f3;
+  fill: none;
+}
+
+.d3-tree-nodes circle.outter_alarm {
+  stroke: #e75473;
+  stroke-opacity: 0.5;
+  stroke-width: 6px;
+}
+
+.d3-tree-nodes circle.inner_alarm {
+  stroke: #e75473;
+  stroke-width: 2px;
+  fill: black;
+}
+
+.d3-tree-nodes circle.outter {
+  stroke-width: 6px;
+  stroke-opacity: 0.5;
+}
+
+.d3-tree-nodes circle.inner {
+  stroke-width: 2px;
+  fill: black;
+}
+
+.d3-tree-nodes text {
+  fill: white;
+  text-anchor: middle;
+  font-size: 14px;
+}
